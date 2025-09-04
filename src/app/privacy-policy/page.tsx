@@ -50,46 +50,53 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">2. Shromažďované údaje</h2>
               <p className="leading-relaxed mb-3">
-                Naše aplikace může shromažďovat následující typy údajů:
+                Naše aplikace shromažďuje pouze následující údaje:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Údaje o účtu: uživatelské jméno, e-mailová adresa</li>
-                <li>Údaje o preferencích: oblíbené filmy, žánry, hodnocení</li>
-                <li>Údaje o používání: statistiky sledování, watchlisty</li>
-                <li>Technické údaje: typ zařízení, verze operačního systému</li>
+                <li>Uživatelské jméno - pro identifikaci vašeho účtu</li>
+                <li>Heslo - pro zabezpečení přístupu k vašemu účtu (uloženo v šifrované podobě)</li>
               </ul>
+              <p className="leading-relaxed mt-4">
+                Neshromažďujeme žádné další osobní údaje, e-mailové adresy,
+                telefonní čísla ani jiné identifikační informace.
+              </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">3. Použití údajů</h2>
               <p className="leading-relaxed mb-3">
-                Shromážděné údaje používáme k:
+                Shromážděné údaje používáme výhradně k:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Poskytování a zlepšování našich služeb</li>
-                <li>Personalizaci obsahu a doporučení</li>
-                <li>Komunikaci s uživateli</li>
-                <li>Analýze používání aplikace</li>
+                <li>Ověření vaší identity při přihlášení do aplikace</li>
+                <li>Zabezpečení vašeho účtu</li>
+                <li>Poskytování základních funkcí aplikace</li>
               </ul>
+              <p className="leading-relaxed mt-4">
+                Vaše údaje nepoužíváme pro marketing, analýzy ani jiné účely
+                než pro základní fungování aplikace.
+              </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">4. Sdílení údajů</h2>
               <p className="leading-relaxed">
-                Vaše osobní údaje nesdílíme s třetími stranami, kromě případů kdy:
+                Vaše údaje (uživatelské jméno a heslo) nesdílíme s žádnými třetími stranami.
               </p>
-              <ul className="list-disc list-inside space-y-2 ml-4 mt-3">
-                <li>Je to nezbytné pro poskytování služeb (např. streamovací platformy)</li>
-                <li>Máme váš výslovný souhlas</li>
-                <li>Je to vyžadováno zákonem</li>
-              </ul>
+              <p className="leading-relaxed mt-4">
+                Výjimkou jsou pouze případy, kdy je to vyžadováno zákonem nebo
+                soudním příkazem.
+              </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">5. Zabezpečení údajů</h2>
               <p className="leading-relaxed">
-                Implementujeme vhodná technická a organizační opatření k ochraně vašich 
-                osobních údajů před neoprávněným přístupem, změnou, zveřejněním nebo zničením.
+                Vaše heslo je uloženo v šifrované podobě a není přístupné ani vývojářům aplikace.
+                Implementujeme standardní bezpečnostní opatření k ochraně vašich přihlašovacích údajů.
+              </p>
+              <p className="leading-relaxed mt-4">
+                Doporučujeme používat silné heslo a nesdílet své přihlašovací údaje s nikým jiným.
               </p>
             </section>
 
@@ -99,19 +106,21 @@ export default function PrivacyPolicy() {
                 Máte právo na:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Přístup k vašim osobním údajům</li>
-                <li>Opravu nesprávných údajů</li>
-                <li>Výmaz vašich údajů</li>
-                <li>Omezení zpracování</li>
-                <li>Přenositelnost údajů</li>
+                <li>Změnu vašeho uživatelského jména</li>
+                <li>Změnu vašeho hesla</li>
+                <li>Smazání vašeho účtu a všech souvisejících údajů</li>
+                <li>Informace o tom, jaké údaje o vás uchováváme</li>
               </ul>
+              <p className="leading-relaxed mt-4">
+                Pro uplatnění těchto práv nás kontaktujte na níže uvedené adrese.
+              </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">7. Cookies a sledovací technologie</h2>
               <p className="leading-relaxed">
-                Naše aplikace může používat cookies a podobné technologie k zlepšení 
-                uživatelského zážitku a analýze používání aplikace.
+                Naše aplikace nepoužívá cookies ani žádné sledovací technologie.
+                Nesledujeme vaše chování ani nesbíráme analytická data.
               </p>
             </section>
 
