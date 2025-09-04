@@ -17,12 +17,20 @@ export default function PrivacyPolicy() {
             />
             <span className="text-2xl font-bold text-white">Cinemark</span>
           </Link>
-          <Link 
-            href="/" 
-            className="text-gray-300 hover:text-white transition-colors"
-          >
-            Zpět na hlavní stránku
-          </Link>
+          <div className="flex space-x-6">
+            <Link
+              href="/"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Hlavní stránka
+            </Link>
+            <Link
+              href="/delete-account"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Smazání účtu
+            </Link>
+          </div>
         </div>
       </nav>
 
@@ -112,7 +120,8 @@ export default function PrivacyPolicy() {
                 <li>Informace o tom, jaké údaje o vás uchováváme</li>
               </ul>
               <p className="leading-relaxed mt-4">
-                Pro uplatnění těchto práv nás kontaktujte na níže uvedené adrese.
+                Pro uplatnění těchto práv nás kontaktujte na e-mail sebesta.jan@gmail.com nebo
+                použijte naši <Link href="/delete-account" className="text-purple-400 hover:text-purple-300 underline">stránku pro smazání účtu</Link>.
               </p>
             </section>
 
@@ -135,8 +144,8 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">9. Kontakt</h2>
               <p className="leading-relaxed">
-                Pokud máte jakékoli otázky ohledně těchto zásad ochrany soukromí, 
-                kontaktujte nás na: privacy@cinemark.app
+                Pokud máte jakékoli otázky ohledně těchto zásad ochrany soukromí,
+                kontaktujte nás na: sebesta.jan@gmail.com
               </p>
             </section>
           </div>
@@ -147,12 +156,18 @@ export default function PrivacyPolicy() {
       <footer className="container mx-auto px-6 py-8 border-t border-gray-800">
         <div className="text-center text-gray-400">
           <p>&copy; 2024 Cinemark. Všechna práva vyhrazena.</p>
-          <div className="mt-4">
-            <Link 
-              href="/" 
+          <div className="mt-4 space-x-6">
+            <Link
+              href="/"
               className="text-purple-400 hover:text-purple-300 transition-colors"
             >
-              Zpět na hlavní stránku
+              Hlavní stránka
+            </Link>
+            <Link
+              href="/delete-account"
+              className="text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Smazání účtu
             </Link>
           </div>
         </div>
